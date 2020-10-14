@@ -1,0 +1,171 @@
+.about {
+  height: 100vh;
+  background-color: rgb(253, 253, 223);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about__name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #14274e;
+  text-shadow: 2px 3px #384b48;
+}
+
+.about__porfession {
+  font-size: 1.8rem;
+  color: rgb(41, 28, 53);
+  text-shadow: 1px 1px #426963;
+}
+
+.about h4 {
+  color: rgb(28, 28, 95);
+  text-shadow: 1px 1px #426963;
+}
+
+.about__contacts div {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: rgb(88, 88, 88);
+}
+
+.about__contacts div:hover {
+  background-color: rgb(33, 79, 90);
+  cursor: pointer;
+}
+
+.education {
+  height: 100vh;
+  background-color: rgb(253, 253, 223);
+}
+
+.education__title {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+.education__collegeName {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(63, 62, 62);
+}
+
+.education__degree {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+.education__date {
+  color: rgb(33, 79, 90);
+}
+
+.education__stream,
+.education__percentage {
+  text-transform: uppercase;
+  color: rgb(124, 124, 124);
+}
+
+.skills {
+  min-height: 100vh;
+  background-color: rgb(253, 253, 223);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skills__icons img {
+  height: 40px;
+  margin: 10px;
+}
+
+.skills__heading {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+.skills__langTools {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+.skills__list ul {
+  list-style: none;
+  text-transform: capitalize;
+  color: rgb(73, 73, 73);
+}
+
+.skills__list ul li:before {
+  content: "✓ ";
+}
+
+.projects {
+  height: 100vh;
+  background-color: rgb(253, 253, 223);
+}
+
+.projects__heading {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+.interests {
+  height: 100vh;
+  background-color: rgb(253, 253, 223);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.interests__container__heading {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+.interests__container__paragraph {
+  color: rgb(73, 73, 73);
+  line-height: 30px;
+}
+
+.achievements {
+  height: 100vh;
+  background-color: rgb(253, 253, 223);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.achievements__heading {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+.achievements__container ul {
+  list-style: none;
+}
+
+.achievements__container ul li {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: rgb(73, 73, 73);
+}

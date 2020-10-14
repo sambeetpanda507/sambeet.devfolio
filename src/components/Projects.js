@@ -2,28 +2,14 @@ import React from "react";
 import "./css/body.css";
 import Button from "@material-ui/core/Button";
 import { motion } from "framer-motion";
+import ProjectTwitter from "./ProjectTwitter";
+import ProjectShoes from "./ProjectShoes";
+import ProjectInsta from "./ProjectInsta";
+import ProjectMovies from "./ProjectMovies";
+import ProjectAmazon from "./ProjectAmazon";
+import ProjectWeather from "./ProjectWeather";
 
 const projectVideo = [
-  {
-    src:
-      "https://drive.google.com/file/d/1fFE1XZcWsP8mW7ibtsvM6bcQOR9c4BYy/preview",
-    path: "https://github.com/sambeetpanda507/twitter-clone",
-  },
-  {
-    src:
-      "https://drive.google.com/file/d/1DwxJXSWpdrIpuoWsa9r3B8BiMbBFvGjK/preview",
-    path: "https://github.com/sambeetpanda507/shoes",
-  },
-  {
-    src:
-      "https://drive.google.com/file/d/1IZI1uZETrWjcmDq8dEOOjbHtYvrxgjKb/preview",
-    path: "https://github.com/sambeetpanda507/instagram-clone",
-  },
-  {
-    src:
-      "https://drive.google.com/file/d/1pao5mXaUD3--9qg1xI_5NpCg5zB5HQZQ/preview",
-    path: "https://github.com/sambeetpanda507/movie-review-application",
-  },
   {
     src:
       "https://drive.google.com/file/d/1E6uR_JCUYZaNPf7S77DErd0nDk4MxGpx/preview",
@@ -51,31 +37,12 @@ function Projects() {
           Projects
         </motion.p>
         <div className="row">
-          {projectVideo.map((videos, index) => {
-            return (
-              <div key={index} className="col-6 col-sm-4 col-md-4 p-2">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title={index}
-                    className="embed-responsive-item"
-                    src={videos.src}
-                    allowFullScreen="on"
-                  ></iframe>
-                </div>
-                <a href={videos.path} target="_blank" rel="noopener noreferrer">
-                  <Button
-                    className="mt-1 text-capitalize"
-                    size="small"
-                    fullWidth
-                    variant="contained"
-                    color="primary"
-                  >
-                    View github
-                  </Button>
-                </a>
-              </div>
-            );
-          })}
+          <ProjectTwitter />
+          <ProjectShoes />
+          <ProjectInsta />
+          <ProjectMovies />
+          <ProjectAmazon />
+          <ProjectWeather />
         </div>
       </div>
     </div>

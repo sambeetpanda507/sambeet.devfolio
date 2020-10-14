@@ -114,8 +114,12 @@
 }
 
 .projects {
-  height: 100vh;
   background-color: rgb(253, 253, 223);
+}
+
+.project__carousel {
+  display: flex;
+  align-items: center;
 }
 
 .projects__heading {

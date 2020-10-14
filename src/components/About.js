@@ -48,7 +48,7 @@ function About() {
           <span>SAMBEET</span> <span>SEKHAR</span> <span>PANDA</span>
         </p>
         <p className="about__porfession">
-          Hi, I'm a passionate fullStack web developer from India.
+          Hi, I'm a passionate Full stack web developer from India.
         </p>
         <Typical
           className="about__typewriter"

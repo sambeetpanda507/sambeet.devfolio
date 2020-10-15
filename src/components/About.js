@@ -59,23 +59,29 @@ function About() {
             500,
             "I Love MERN Stack 📚",
             500,
-            "New Technology Thrives Me 🚀 ",
+            "New Technology Fascinates Me 🚀 ",
             500,
           ]}
           loop={Infinity}
           wrapper="h4"
         />
         <div className="about__contacts mt-3 d-flex aling-items-center">
-          <motion.div
-            variants={hoverVariant}
-            whileHover="hover"
-            initial="hidden"
-            animate="visible"
+          <a
+            href="https://www.linkedin.com/in/sambeet-sekhar-panda-65aa271b9/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <IconButton style={{ outline: "none" }}>
-              <LinkedInIcon className="text-white" fontSize="large" />
-            </IconButton>
-          </motion.div>
+            <motion.div
+              variants={hoverVariant}
+              whileHover="hover"
+              initial="hidden"
+              animate="visible"
+            >
+              <IconButton style={{ outline: "none" }}>
+                <LinkedInIcon className="text-white" fontSize="large" />
+              </IconButton>
+            </motion.div>
+          </a>
 
           <a
             href="https://github.com/sambeetpanda507"

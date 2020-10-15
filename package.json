@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://sambeetpanda507.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +22,6 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

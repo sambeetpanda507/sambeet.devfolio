@@ -23,14 +23,14 @@ function ProjectTwitter() {
           <li>Can delete tweets</li>
           <li>Based on responsive material design</li>
           <li>
-            Covid-19 api included which shows all the data about different
+            Covid-19 API included which shows all the data about different
             states in India
           </li>
         </ul>
         <h5>Technology Used</h5>
         <ul className="p-3">
           <li>React for frontend</li>
-          <li>Node.js for making api in the backend</li>
+          <li>Node.js for making API in the backend</li>
           <li>Express.js - backend framework.</li>
           <li>MongoDB NoSQL database with cloud storage atlas server</li>
           <li>Firebase storage</li>

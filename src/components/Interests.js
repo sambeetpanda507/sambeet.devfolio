@@ -15,7 +15,7 @@ function Interests() {
         </motion.p>
         <p className="pr-3 pt-3 interests__container__paragraph mt-2">
           Apart from being a web developer, I enjoy most of my time playing
-          computer games, watching animes and web series. I love to paly and
+          computer games, watching animes and web series. I love to play and
           watch football. When forced indoors, I follow a number of sci-fi and
           action genre movies and television shows. I also spend my free time
           exploring the latest technology advancements in the full stack web

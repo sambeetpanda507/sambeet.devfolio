@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./css/sidebar.css";
 import { HashLink as Link } from "react-router-hash-link";
+import porfileImage from "../images/profile image.jpg";
 
 function SideBar() {
   const [hash, setHash] = useState("");
@@ -13,12 +14,7 @@ function SideBar() {
       <div className="sidebar__content mt-5 py-4">
         <div className="sidebar__dp d-flex align-items-center justify-content-center mt-2">
           <div className="sidebar__dpBorder">
-            <img
-              src="https://instagram.fdel10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/66783033_450785819107125_4409157475534635008_n.jpg?_nc_ht=instagram.fdel10-1.fna.fbcdn.net&_nc_ohc=Fo_TdMESys0AX9w8eQU&oh=78078d5091dcc359b48bc97d6e463b30&oe=5FAF5085"
-              height="180"
-              className="rounded-circle"
-              alt="display"
-            />
+            <img src={porfileImage} className="rounded-circle" alt="display" />
           </div>
         </div>
         <div className="sidebar__links">

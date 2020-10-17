@@ -67,7 +67,7 @@ function About() {
         />
         <div className="about__contacts mt-3 d-flex aling-items-center">
           <a
-            href="https://www.linkedin.com/in/sambeet-sekhar-panda-65aa271b9/"
+            href="https://www.linkedin.com/in/sambeetsekharpanda/"
             target="_blank"
             rel="noopener noreferrer"
           >

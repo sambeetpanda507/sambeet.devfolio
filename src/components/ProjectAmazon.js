@@ -39,8 +39,12 @@ function ProjectAmazon() {
         <div className="col-md-6 project__carousel">
           {/* carousel :start */}
           <div className="w-100">
-            <Bootstrap.Carousel activeIndex={index} onSelect={handleSelect}>
-              <Bootstrap.Carousel.Item interval={200}>
+            <Bootstrap.Carousel
+              activeIndex={index}
+              onSelect={handleSelect}
+              interval={6000}
+            >
+              <Bootstrap.Carousel.Item>
                 <iframe
                   title="insta"
                   className="embed-responsive-item d-block w-100"
@@ -50,7 +54,7 @@ function ProjectAmazon() {
                   style={{ borderRadius: "20px" }}
                 ></iframe>
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={amazon1}
@@ -59,7 +63,7 @@ function ProjectAmazon() {
                   style={{ borderRadius: "20px" }}
                 />
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={amazon2}
@@ -68,7 +72,7 @@ function ProjectAmazon() {
                   style={{ borderRadius: "20px" }}
                 />
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={amazon3}

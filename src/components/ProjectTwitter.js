@@ -39,8 +39,13 @@ function ProjectTwitter() {
       <div className="col-md-6 project__carousel">
         {/* carousel :start */}
         <div className="w-100">
-          <Bootstrap.Carousel activeIndex={index} onSelect={handleSelect}>
-            <Bootstrap.Carousel.Item interval={200}>
+          <Bootstrap.Carousel
+            className="border"
+            activeIndex={index}
+            onSelect={handleSelect}
+            interval={6000}
+          >
+            <Bootstrap.Carousel.Item>
               <iframe
                 title="twitter"
                 className="embed-responsive-item d-block w-100"
@@ -50,7 +55,7 @@ function ProjectTwitter() {
                 style={{ borderRadius: "20px" }}
               ></iframe>
             </Bootstrap.Carousel.Item>
-            <Bootstrap.Carousel.Item interval={200}>
+            <Bootstrap.Carousel.Item>
               <img
                 className="d-block w-100"
                 src={twitter1}
@@ -59,7 +64,7 @@ function ProjectTwitter() {
                 style={{ borderRadius: "20px" }}
               />
             </Bootstrap.Carousel.Item>
-            <Bootstrap.Carousel.Item interval={200}>
+            <Bootstrap.Carousel.Item>
               <img
                 className="d-block w-100"
                 src={twitter2}

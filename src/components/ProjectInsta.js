@@ -37,7 +37,11 @@ function ProjectInsta() {
         <div className="col-md-6 project__carousel">
           {/* carousel :start */}
           <div className="w-100">
-            <Bootstrap.Carousel activeIndex={index} onSelect={handleSelect}>
+            <Bootstrap.Carousel
+              activeIndex={index}
+              onSelect={handleSelect}
+              interval={6000}
+            >
               <Bootstrap.Carousel.Item interval={200}>
                 <iframe
                   title="insta"
@@ -48,7 +52,7 @@ function ProjectInsta() {
                   style={{ borderRadius: "20px" }}
                 ></iframe>
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={insta1}
@@ -57,7 +61,7 @@ function ProjectInsta() {
                   style={{ borderRadius: "20px" }}
                 />
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={insta2}
@@ -66,7 +70,7 @@ function ProjectInsta() {
                   style={{ borderRadius: "20px" }}
                 />
               </Bootstrap.Carousel.Item>
-              <Bootstrap.Carousel.Item interval={200}>
+              <Bootstrap.Carousel.Item>
                 <img
                   className="d-block w-100"
                   src={insta3}
